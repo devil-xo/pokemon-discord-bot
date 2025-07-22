@@ -1,9 +1,0 @@
-services:
-  - type: worker
-    name: pokemon-discord-bot
-    env: node
-    buildCommand: npm install
-    startCommand: node bot.js
-    envVars:
-      - key: NODE_ENV
-        value: production
